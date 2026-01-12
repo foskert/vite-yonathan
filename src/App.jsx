@@ -107,7 +107,6 @@ import makeProductImagen11 from './assets/image/proyect/makesproduct/11.jpg';
 import makeProductImagen12 from './assets/image/proyect/makesproduct/12.jpg';
 import makeProductImagen13 from './assets/image/proyect/makesproduct/13.jpg';
 
-
 import ewexcarImagen from './assets/image/proyect/ewexcar.jpg';
 
 import ewexAppImagen1 from './assets/image/proyect/ewexcarapp/1.jpg';
@@ -148,9 +147,7 @@ import ewexImagen from './assets/image/proyect/wewex.jpeg';
 import cvPdf from './assets/image/Yonathan_Rivas_J_18991815_CV.pdf';
 
 
-// Función para inicializar el tema basado en localStorage o la preferencia del sistema
 const getInitialTheme = () => {
-  // 1. Tomar por defecto el color claro/oscuro del dispositivo
   if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
     return localStorage.getItem('theme');
   }
@@ -160,9 +157,7 @@ const getInitialTheme = () => {
   return 'light';
 };
 
-const handleDownloadCV = () => {
-    // El botón descargar CV realiza un PDF del sitio web (usando la función de impresión)
-  
+const handleDownloadCV = () => {  
     const link = document.createElement('a');
     link.href = cvPdf;
     link.download = 'Yonathan_Rivas_CV.pdf';
@@ -171,7 +166,6 @@ const handleDownloadCV = () => {
     document.body.removeChild(link);
 };
 
-// Hook personalizado para el efecto de escritura
 const useTypingEffect = (lines, typingSpeed = 50, lineDelay = 500) => {
   const [typedLines, setTypedLines] = useState(Array(lines.length).fill(''));
 
@@ -197,7 +191,7 @@ const useTypingEffect = (lines, typingSpeed = 50, lineDelay = 500) => {
       }
     };
 
-    const timeoutId = setTimeout(type, 500); // Iniciar después de un breve retraso
+    const timeoutId = setTimeout(type, 500); 
     return () => clearTimeout(timeoutId);
   }, [lines, typingSpeed, lineDelay]);
 
@@ -219,6 +213,7 @@ const Portfolio = () => {
   const codeLines = [
     "const App = () => {",
     "  return { ",    
+    "    Perfil: 'Full-Stack Developer',",
     "    Nombre: 'Yonathan Rivas Jiménez',",
     "    Email: 'dev.yonathan@gmail.com',",
     "    Localidad: 'Caracas, Venezuela',",
@@ -231,7 +226,6 @@ const Portfolio = () => {
 
   const typedCode = useTypingEffect(codeLines, 40, 300);
 
-  // Lógica para aplicar y persistir el tema
   useEffect(() => {
     const root = window.document.documentElement;
     if (theme === 'dark') {
@@ -246,7 +240,6 @@ const Portfolio = () => {
     setTheme(theme === 'dark' ? 'light' : 'dark');
   };
 
-  // Manejar el scroll para la barra de navegación
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
@@ -293,8 +286,6 @@ const Portfolio = () => {
     setIsVideoModalOpen(false);
     setVideoSrc(null);
   };
-
- 
 
   const navLinks = [
     { name: 'Inicio', id: 'inicio' },
@@ -605,21 +596,24 @@ const Portfolio = () => {
                          <p className="text-slate-400">
                           <span className="ml-4">{typedCode[2].substring(0, 12)}</span><span className="text-yellow-500">{typedCode[2].substring(12)}</span>
                         </p>
-                        <p className="text-slate-400">
-                          <span className="ml-4">{typedCode[3].substring(0, 12)}</span><a href="mailto:dev.yonathan@gmail.com" className="text-yellow-500 hover:underline">{typedCode[3].substring(12)}</a>
+                         <p className="text-slate-400">
+                          <span className="ml-4">{typedCode[3].substring(0, 12)}</span><span className="text-yellow-500">{typedCode[3].substring(12)}</span>
                         </p>
                         <p className="text-slate-400">
-                          <span className="ml-4">{typedCode[4].substring(0, 16)}</span><span className="text-yellow-500">{typedCode[4].substring(16)}</span>
+                          <span className="ml-4">{typedCode[4].substring(0, 12)}</span><a href="mailto:dev.yonathan@gmail.com" className="text-yellow-500 hover:underline">{typedCode[4].substring(12)}</a>
                         </p>
                         <p className="text-slate-400">
-                          <span className="ml-4">{typedCode[5].substring(0, 15)}</span><a href="https://wa.me/584247149824" target="_blank" rel="noopener noreferrer" className="text-yellow-500 hover:underline">{typedCode[5].substring(15)}</a>
+                          <span className="ml-4">{typedCode[5].substring(0, 16)}</span><span className="text-yellow-500">{typedCode[5].substring(16)}</span>
                         </p>
-                        <p className="text-cyan-500 dark:text-cyan-400">{typedCode[6]}</p>
+                        <p className="text-slate-400">
+                          <span className="ml-4">{typedCode[6].substring(0, 15)}</span><a href="https://wa.me/584247149824" target="_blank" rel="noopener noreferrer" className="text-yellow-500 hover:underline">{typedCode[6].substring(15)}</a>
+                        </p>
                         <p className="text-cyan-500 dark:text-cyan-400">{typedCode[7]}</p>
-                        <p className="mt-4 text-green-400">{typedCode[8]}</p>
-                        <p className="text-slate-400">{typedCode[9]}</p>
+                        <p className="text-cyan-500 dark:text-cyan-400">{typedCode[8]}</p>
+                        <p className="mt-4 text-green-400">{typedCode[9]}</p>
+                        <p className="text-slate-400">{typedCode[10]}</p>
                         {/* Cursor parpadeante (solo se muestra cuando la animación no ha terminado) */}
-                        {typedCode[9].length < codeLines[9].length && <span className="inline-block w-2 h-4 bg-slate-400 animate-pulse ml-1"></span>}
+                        {typedCode[10].length < codeLines[10].length && <span className="inline-block w-2 h-4 bg-slate-400 animate-pulse ml-1"></span>}
                     </div>
                 </div>
             </div>
