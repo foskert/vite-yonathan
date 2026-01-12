@@ -74,8 +74,8 @@ import campaignImagen5 from './assets/image/proyect/campaign/5.jpeg';
 import campaignImagen6 from './assets/image/proyect/campaign/6.jpeg';
 import campaignImagen7 from './assets/image/proyect/campaign/7.jpeg';
 import campaignImagen8 from './assets/image/proyect/campaign/8.jpeg';
-import videoRct from './assets/image/proyect/videoRct.mp4';
-import videoCampaign from './assets/image/proyect/videoCampaign.mp4';
+//import videoRct from './assets/image/proyect/videoRct.mp4';
+//import videoCampaign from './assets/image/proyect/videoCampaign.mp4';
 
 
 
@@ -1170,8 +1170,8 @@ const Portfolio = () => {
                       
                     </div>
                       <div className="flex space-x-3">
-                      <button 
-                      onClick={() => openVideo(videoCampaign)}
+                       <button
+                      onClick={() => openVideo('https://drive.google.com/file/d/14afZVj2vyMw1pWUfzD9kbXfxTFiFEA5T/view?usp=drive_link')}
                       className="text-slate-500 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                       title="Ver Video Demo"
                     >
@@ -1215,8 +1215,8 @@ const Portfolio = () => {
                     Sistema de Garantias RCT
                     </h3>
                   <div className="flex space-x-3">
-                    <button 
-                      onClick={() => openVideo(videoRct)}
+                     <button
+                      onClick={() => openVideo('https://drive.google.com/file/d/16P5-xn5_Wi1B2QO2aW10MIV1XiGezqXW/view?usp=drive_link')}
                       className="text-slate-500 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                       title="Ver Video Demo"
                     >
