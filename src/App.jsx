@@ -1438,8 +1438,7 @@ const Portfolio = () => {
                         makeScamImagen8,
                         makeScamImagen9,
                         makeScamImagen10,
-                        makeScamImagen11,
-                        makeScamImagen12,
+                        makeScamImagen11,                        makeScamImagen12,
                         makeScamImagen13
                       ])} // TODO: Importar y usar imágenes de assets/image/proyect/campaign
                       className="text-slate-500 dark:text-slate-400 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors"
@@ -1447,7 +1446,7 @@ const Portfolio = () => {
                     > <Images size={20} /></button>                  </div>
                 </div>
                 <p className="text-slate-600 dark:text-slate-400 mb-4 text-sm">
-                  Un sistema de intercambio de moneda estilo P2P (peer-to-peer) permite a los usuarios comprar y vender divisas directamente entre ellos, sin necesidad de intermediarios tradicionales como bancos o casas de cambio.
+                 Solución integral para la gestión de eventos en tiempo real, optimizando el control de acceso y la logística operativa para una experiencia impecable.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <span className="text-xs font-medium text-purple-700 dark:text-purple-300 bg-purple-100 dark:bg-purple-900/30 px-2 py-1 rounded">Synphony</span>
@@ -1455,8 +1454,6 @@ const Portfolio = () => {
                   <span className="text-xs font-medium text-purple-700 dark:text-purple-300 bg-purple-100 dark:bg-purple-900/30 px-2 py-1 rounded">PostgreSQL</span>
                   <span className="text-xs font-medium text-purple-700 dark:text-purple-300 bg-purple-100 dark:bg-purple-900/30 px-2 py-1 rounded">SQLite</span>
                   <span className="text-xs font-medium text-purple-700 dark:text-purple-300 bg-purple-100 dark:bg-purple-900/30 px-2 py-1 rounded">Java</span>
-                  <span className="text-xs font-medium text-purple-700 dark:text-purple-300 bg-purple-100 dark:bg-purple-900/30 px-2 py-1 rounded">PHP</span>
-                  <span className="text-xs font-medium text-purple-700 dark:text-purple-300 bg-purple-100 dark:bg-purple-900/30 px-2 py-1 rounded">Firebase</span>
                 </div>
               </div>
             </div>
@@ -1480,7 +1477,7 @@ const Portfolio = () => {
               <div className="p-6">
                 <div className="flex justify-between items-center mb-4">
                   <h3 className="text-xl font-bold text-slate-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
-                    App de Seguimiento Operaciones por Productores
+                    App de Seguimiento Operaciones para Productores
                   </h3>
                   <div className="flex space-x-3">
                     <button 
@@ -1504,7 +1501,8 @@ const Portfolio = () => {
                     > <Images size={20} /></button>                  </div>
                 </div>
                 <p className="text-slate-600 dark:text-slate-400 mb-4 text-sm">
-                  Un sistema de intercambio de moneda estilo P2P (peer-to-peer) permite a los usuarios comprar y vender divisas directamente entre ellos, sin necesidad de intermediarios tradicionales como bancos o casas de cambio.
+ Solución integral para la gestión de eventos  con productores en tiempo real, revisando el control de pagos assecos  y la logística operativa para los eventos.
+                
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">Synphony</span>
@@ -1512,8 +1510,6 @@ const Portfolio = () => {
                   <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">PostgreSQL</span>
                   <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">SQLite</span>
                   <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">Java</span>
-                  <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">PHP</span>
-                  <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">Firebase</span>
                 </div>
               </div>
             </div>
@@ -1537,7 +1533,7 @@ const Portfolio = () => {
               <div className="p-6">
                 <div className="flex justify-between items-center mb-4">
                   <h3 className="text-xl font-bold text-slate-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
-                    App de Seguimiento Operaciones por Productores
+                    App de uber para servicios de transporte
                   </h3>
                   <div className="flex space-x-3">
                     <button 
@@ -1560,16 +1556,15 @@ const Portfolio = () => {
                     > <Images size={20} /></button>                  </div>
                 </div>
                 <p className="text-slate-600 dark:text-slate-400 mb-4 text-sm">
-                  Un sistema de intercambio de moneda estilo P2P (peer-to-peer) permite a los usuarios comprar y vender divisas directamente entre ellos, sin necesidad de intermediarios tradicionales como bancos o casas de cambio.
-                </p>
+Plataforma de intermediación digital diseñada para conectar la demanda de movilidad de usuarios finales con una red de proveedores de transporte independientes. El sistema integra geolocalización en tiempo real,
+ un algoritmo de asignación de rutas optimizado y un módulo de procesamiento de pagos automatizado para garantizar la trazabilidad de cada servicio .               </p>
                 <div className="flex flex-wrap gap-2">
-                  <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">Synphony</span>
-                  <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">Kotlin</span>
-                  <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">PostgreSQL</span>
-                  <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">SQLite</span>
-                  <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">Java</span>
-                  <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">PHP</span>
-                  <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">Firebase</span>
+                  <span className="text-xs font-medium text-blue-700 dark:text-blue-300 bg-blue-100 dark:bg-blue-900/30 px-2 py-1 rounded">Laravel</span>
+                  <span className="text-xs font-medium text-blue-700 dark:text-blue-300 bg-blue-100 dark:bg-blue-900/30 px-2 py-1 rounded">Kotlin</span>
+                  <span className="text-xs font-medium text-blue-700 dark:text-blue-300 bg-blue-100 dark:bg-blue-900/30 px-2 py-1 rounded">PostgreSQL</span>
+                  <span className="text-xs font-medium text-blue-700 dark:text-blue-300 bg-blue-100 dark:bg-blue-900/30 px-2 py-1 rounded">SQLite</span>
+                  <span className="text-xs font-medium text-blue-700 dark:text-blue-300 bg-blue-100 dark:bg-blue-900/30 px-2 py-1 rounded">Java</span>
+                  <span className="text-xs font-medium text-blue-700 dark:text-blue-300 bg-blue-100 dark:bg-blue-900/30 px-2 py-1 rounded">PHP</span>
                 </div>
               </div>
             </div>
@@ -1592,7 +1587,7 @@ const Portfolio = () => {
               <div className="p-6">
                 <div className="flex justify-between items-center mb-4">
                   <h3 className="text-xl font-bold text-slate-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
-                    Sistema de cotizacion para credito de autos
+                   Sistema 
                   </h3>
                   <div className="flex space-x-3">
                     <button 
