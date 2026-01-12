@@ -145,6 +145,8 @@ import appadnImagen1 from './assets/image/proyect/appadn/1.png';
 import appadnImagen2 from './assets/image/proyect/appadn/2.png';
 
 import ewexImagen from './assets/image/proyect/wewex.jpeg';
+import cvPdf from './assets/image/Yonathan_Rivas_J_18991815_CV.pdf';
+
 
 // Función para inicializar el tema basado en localStorage o la preferencia del sistema
 const getInitialTheme = () => {
@@ -156,6 +158,17 @@ const getInitialTheme = () => {
     return 'dark';
   }
   return 'light';
+};
+
+const handleDownloadCV = () => {
+    // El botón descargar CV realiza un PDF del sitio web (usando la función de impresión)
+  
+    const link = document.createElement('a');
+    link.href = cvPdf;
+    link.download = 'Yonathan_Rivas_CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
 };
 
 // Hook personalizado para el efecto de escritura
@@ -281,10 +294,7 @@ const Portfolio = () => {
     setVideoSrc(null);
   };
 
-  const handleDownloadCV = () => {
-    // El botón descargar CV realiza un PDF del sitio web (usando la función de impresión)
-    window.print();
-  };
+ 
 
   const navLinks = [
     { name: 'Inicio', id: 'inicio' },
@@ -324,6 +334,8 @@ const Portfolio = () => {
     { img: plz26Image, title: 'Curso Básico de PHP: Instalación, Fundamentos y Operadores', url: 'https://platzi.com/p/foskert/curso/2646-course/diploma/detalle/', date: 'Agosto 2023', platform: 'Platzi' },
     { img: plz26Image, title: 'Acreditación como defensor estudiantil por la igual y equiparación de oportunidades a personas con discapacidad', url: null, date: 'Junio 2013', platform: 'MPPEU', type: 'Certificado' },
   ];
+
+
 
   const CertificationCard = ({ cert, onImageClick }) => (
     <div className="bg-white dark:bg-slate-900 rounded-xl overflow-hidden border border-slate-300 dark:border-slate-700 group hover:border-cyan-500 transition-all duration-300 hover:shadow-2xl dark:hover:shadow-cyan-500/10 hover:shadow-cyan-500/20 h-full flex flex-col">
@@ -613,7 +625,6 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-
         <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce text-slate-400 dark:text-slate-500">
           <ChevronDown size={32} />
         </div>
