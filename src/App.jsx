@@ -74,8 +74,6 @@ import campaignImagen5 from './assets/image/proyect/campaign/5.jpeg';
 import campaignImagen6 from './assets/image/proyect/campaign/6.jpeg';
 import campaignImagen7 from './assets/image/proyect/campaign/7.jpeg';
 import campaignImagen8 from './assets/image/proyect/campaign/8.jpeg';
-//import videoRct from './assets/image/proyect/videoRct.mp4';
-//import videoCampaign from './assets/image/proyect/videoCampaign.mp4';
 
 
 
@@ -207,7 +205,8 @@ const Portfolio = () => {
 
   const codeLines = [
     "const App = () => {",
-    "  return {",
+    "  return { ",    
+    "    Nombre: 'Yonathan Rivas Jiménez',",
     "    Email: 'dev.yonathan@gmail.com',",
     "    Localidad: 'Caracas, Venezuela',",
     "    WhatsApp: '+584247149824'",
@@ -591,21 +590,24 @@ const Portfolio = () => {
                     <div className="font-mono text-sm overflow-hidden whitespace-pre-wrap">
                         <p className="text-cyan-500 dark:text-cyan-400">{typedCode[0]}</p>
                         <p className="text-cyan-500 dark:text-cyan-400">{typedCode[1]}</p>
-                        <p className="text-slate-400">
-                          <span className="ml-4">{typedCode[2].substring(0, 12)}</span><a href="mailto:dev.yonathan@gmail.com" className="text-yellow-500 hover:underline">{typedCode[2].substring(12)}</a>
+                         <p className="text-slate-400">
+                          <span className="ml-4">{typedCode[2].substring(0, 12)}</span><span className="text-yellow-500">{typedCode[2].substring(12)}</span>
                         </p>
                         <p className="text-slate-400">
-                          <span className="ml-4">{typedCode[3].substring(0, 16)}</span><span className="text-yellow-500">{typedCode[3].substring(16)}</span>
+                          <span className="ml-4">{typedCode[3].substring(0, 12)}</span><a href="mailto:dev.yonathan@gmail.com" className="text-yellow-500 hover:underline">{typedCode[3].substring(12)}</a>
                         </p>
                         <p className="text-slate-400">
-                          <span className="ml-4">{typedCode[4].substring(0, 15)}</span><a href="https://wa.me/584247149824" target="_blank" rel="noopener noreferrer" className="text-yellow-500 hover:underline">{typedCode[4].substring(15)}</a>
+                          <span className="ml-4">{typedCode[4].substring(0, 16)}</span><span className="text-yellow-500">{typedCode[4].substring(16)}</span>
                         </p>
-                        <p className="text-cyan-500 dark:text-cyan-400">{typedCode[5]}</p>
+                        <p className="text-slate-400">
+                          <span className="ml-4">{typedCode[5].substring(0, 15)}</span><a href="https://wa.me/584247149824" target="_blank" rel="noopener noreferrer" className="text-yellow-500 hover:underline">{typedCode[5].substring(15)}</a>
+                        </p>
                         <p className="text-cyan-500 dark:text-cyan-400">{typedCode[6]}</p>
-                        <p className="mt-4 text-green-400">{typedCode[7]}</p>
-                        <p className="text-slate-400">{typedCode[8]}</p>
+                        <p className="text-cyan-500 dark:text-cyan-400">{typedCode[7]}</p>
+                        <p className="mt-4 text-green-400">{typedCode[8]}</p>
+                        <p className="text-slate-400">{typedCode[9]}</p>
                         {/* Cursor parpadeante (solo se muestra cuando la animación no ha terminado) */}
-                        {typedCode[8].length < codeLines[8].length && <span className="inline-block w-2 h-4 bg-slate-400 animate-pulse ml-1"></span>}
+                        {typedCode[9].length < codeLines[9].length && <span className="inline-block w-2 h-4 bg-slate-400 animate-pulse ml-1"></span>}
                     </div>
                 </div>
             </div>
