@@ -1040,85 +1040,8 @@ const Portfolio = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-              <div className="space-y-6">
-                <h3 className="text-xl font-semibold text-slate-900 dark:text-white">Información de contacto</h3>
-                <p className="text-slate-600 dark:text-slate-400 text-sm">
-                  No dudes en contactarme si tienes alguna pregunta o simplemente quieres saludar.
-                </p>
-                
-                <div className="flex items-center space-x-4">
-                  <div className="w-10 h-10 rounded-full bg-slate-200 dark:bg-slate-700 flex items-center justify-center text-cyan-600 dark:text-cyan-400">
-                    <Mail size={20} />
-                  </div>
-                  <div>
-                    <p className="text-sm text-slate-500 dark:text-slate-400">Email</p>
-                    <p className="text-slate-900 dark:text-white">dev.yonathan@gmail.com</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-center space-x-4">
-                  <div className="w-10 h-10 rounded-full bg-slate-200 dark:bg-slate-700 flex items-center justify-center text-cyan-600 dark:text-cyan-400">
-                    <Linkedin size={20} />
-                  </div>
-                  <div>
-                    <p className="text-sm text-slate-500 dark:text-slate-400">LinkedIn</p>
-                    <a href="https://www.linkedin.com/in/yonathan-rivas-jim%C3%A9nez-504b4ab8/" target="_blank" rel="noopener noreferrer" className="text-slate-900 dark:text-white hover:underline">
-                      linkedin.com/in/yonathan-rivas
-                    </a>
-                  </div>
-                </div>
+            <iframe width="100%" height="450" src="https://www.youtube.com/embed/46fd56yw-8Y" title="Introducing AI Workflow Builder (Beta)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-                <div className="pt-6">
-                  <h4 className="text-slate-900 dark:text-white font-medium mb-3">Sígueme</h4>
-                  <div className="flex space-x-4">
-                    <a href="https://github.com/yonathan-rivas" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-lg bg-slate-200 dark:bg-slate-700 hover:bg-cyan-500 hover:text-white flex items-center justify-center transition-all duration-300 text-slate-600 dark:text-slate-300">
-                      <Github size={20} />
-                    </a>
-                    <a href="https://www.linkedin.com/in/yonathan-rivas-jim%C3%A9nez-504b4ab8/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-lg bg-slate-200 dark:bg-slate-700 hover:bg-blue-500 hover:text-white flex items-center justify-center transition-all duration-300 text-slate-600 dark:text-slate-300">
-                      <Linkedin size={20} />
-                    </a>
-                    <a href="mailto:dev.yonathan@gmail.com" className="w-10 h-10 rounded-lg bg-slate-200 dark:bg-slate-700 hover:bg-pink-500 hover:text-white flex items-center justify-center transition-all duration-300 text-slate-600 dark:text-slate-300">
-                      <Globe size={20} />
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-slate-600 dark:text-slate-400 mb-1">Nombre</label>
-                  <input 
-                    type="text" 
-                    id="name" 
-                    className="w-full bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-700 rounded-lg px-4 py-2 text-slate-900 dark:text-white focus:outline-none focus:border-cyan-500 transition-colors"
-                    placeholder="Tu nombre"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-slate-600 dark:text-slate-400 mb-1">Email</label>
-                  <input 
-                    type="email" 
-                    id="email" 
-                    className="w-full bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-700 rounded-lg px-4 py-2 text-slate-900 dark:text-white focus:outline-none focus:border-cyan-500 transition-colors"
-                    placeholder="tu@email.com"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-slate-600 dark:text-slate-400 mb-1">Mensaje</label>
-                  <textarea 
-                    id="message" 
-                    rows="4" 
-                    className="w-full bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-700 rounded-lg px-4 py-2 text-slate-900 dark:text-white focus:outline-none focus:border-cyan-500 transition-colors resize-none"
-                    placeholder="Cuéntame sobre tu proyecto..."
-                  ></textarea>
-                </div>
-                <button type="submit" className="w-full bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold py-3 rounded-lg hover:shadow-lg hover:shadow-cyan-500/25 transition-all flex items-center justify-center gap-2 group">
-                  <Send size={18} className="group-hover:translate-x-1 transition-transform" />
-                  Enviar Mensaje
-                </button>
-              </form>
-            </div>
           </div>
         </div>
       </section>
