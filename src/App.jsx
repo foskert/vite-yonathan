@@ -1034,9 +1034,9 @@ const Portfolio = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-slate-50 dark:bg-slate-800/50 rounded-2xl p-8 md:p-12 border border-slate-200 dark:border-slate-700 shadow-2xl">
             <div className="text-center mb-10">
-              <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4">¿Listo para comenzar un proyecto?</h2>
+              <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4">Descubre las maravillas de la automatización</h2>
               <p className="text-slate-600 dark:text-slate-400">
-                Estoy disponible para trabajos freelance y oportunidades a tiempo completo.
+                N8N trae para ti su innovador AI Workflow Builder (Beta), una herramienta revolucionaria que combina la potencia de la inteligencia artificial con la eficiencia de la automatización de flujos de trabajo.
               </p>
             </div>
 
