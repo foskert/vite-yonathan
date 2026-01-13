@@ -1608,16 +1608,16 @@ protocolos de adjudicación para la adquisición de vehículos, garantizando la 
               <div className="p-6">
                 <div className="flex justify-between items-center mb-4">
                   <h3 className="text-xl font-bold text-slate-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
-                    Segun2 sistema de intercambio de divisas.
+                    App TuID de Vida.
                   </h3>
                   <div className="flex space-x-3">
                     <a href="https://play.google.com/store/apps/details?id=com.autenticar.tuid&hl=es_VE"   target="_blank" className="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white"><ExternalLink size={20} /></a>
                   </div>
                   </div>
                 <p className="text-slate-600 dark:text-slate-400 mb-4 text-sm">
- Plataforma tecnológica para la intermediación de activos líquidos y conversión de divisas. El sistema opera mediante un motor de emparejamiento (matching engine) que conecta ofertas y demandas de cambio en tiempo real, aplicando 
-                    tipos de cambio dinámicos basados en feeds de datos de mercados internacionales y asegurando la integridad de la transacción mediante cuentas de custodia segregadas
-                                 </p>
+  Plataforma de identidad digital que permite a los usuarios gestionar y verificar su identidad de manera segura a través de tecnologías biométricas y criptográficas, 
+  facilitando el acceso a servicios en línea con altos estándares de seguridad y privacidad. Evalua la fe de vida de los pencionados de argentina
+ </p>
                 <div className="flex flex-wrap gap-2">
                   <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">Kotlin</span>
                   <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">PostgreSQL</span>
@@ -1647,7 +1647,7 @@ protocolos de adjudicación para la adquisición de vehículos, garantizando la 
               <div className="p-6">
                 <div className="flex justify-between items-center mb-4">
                   <h3 className="text-xl font-bold text-slate-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
-                    Sistema empresarial para escritorio
+                    Sistema empresarial para escritorio ADN Pos
                   </h3>
                  <div className="flex space-x-3">
                     <button 
@@ -1662,7 +1662,8 @@ protocolos de adjudicación para la adquisición de vehículos, garantizando la 
                     > <Images size={20} /></button>                  </div>
                 </div>
                 <p className="text-slate-600 dark:text-slate-400 mb-4 text-sm">
-                  Un sistema de intercambio de moneda estilo P2P (peer-to-peer) permite a los usuarios comprar y vender divisas directamente entre ellos, sin necesidad de intermediarios tradicionales como bancos o casas de cambio.
+                  Sistema empresarial de punto de venta (POS) diseñado para optimizar las operaciones comerciales, integrando gestión de inventarios, 
+                  procesamiento de ventas y generación de informes en tiempo real para mejorar la eficiencia y la toma de decisiones.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">Kotlin</span>
