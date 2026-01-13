@@ -356,6 +356,38 @@ const Portfolio = () => {
     </div>
   );
 
+
+const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.id]: e.target.value
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // 2. Tu número de teléfono (con código de país, sin el signo +)
+    const phone = "584247149824"; 
+
+    // 3. Formatear el mensaje
+    const text = `Hola! Mi nombre es ${formData.name}. %0A` +
+                 `Mi email es: ${formData.email} %0A%0A` +
+                 `Mensaje: ${formData.message}`;
+
+    // 4. Abrir WhatsApp
+    const url = `https://wa.me/${phone}?text=${text}`;
+    window.open(url, '_blank');
+  };
+
+
+
   return (
     // Configuración de tema base para soportar el modo claro/oscuro
     <div className="min-h-screen bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-200 font-sans selection:bg-cyan-500 selection:text-white">
@@ -1774,39 +1806,48 @@ protocolos de adjudicación para la adquisición de vehículos, garantizando la 
                 </div>
               </div>
 
-              <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-slate-600 dark:text-slate-400 mb-1">Nombre</label>
-                  <input 
-                    type="text" 
-                    id="name" 
-                    className="w-full bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-700 rounded-lg px-4 py-2 text-slate-900 dark:text-white focus:outline-none focus:border-cyan-500 transition-colors"
-                    placeholder="Tu nombre"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-slate-600 dark:text-slate-400 mb-1">Email</label>
-                  <input 
-                    type="email" 
-                    id="email" 
-                    className="w-full bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-700 rounded-lg px-4 py-2 text-slate-900 dark:text-white focus:outline-none focus:border-cyan-500 transition-colors"
-                    placeholder="tu@email.com"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-slate-600 dark:text-slate-400 mb-1">Mensaje</label>
-                  <textarea 
-                    id="message" 
-                    rows="4" 
-                    className="w-full bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-700 rounded-lg px-4 py-2 text-slate-900 dark:text-white focus:outline-none focus:border-cyan-500 transition-colors resize-none"
-                    placeholder="Cuéntame sobre tu proyecto..."
-                  ></textarea>
-                </div>
-                <button type="submit" className="w-full bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold py-3 rounded-lg hover:shadow-lg hover:shadow-cyan-500/25 transition-all flex items-center justify-center gap-2 group">
-                  <Send size={18} className="group-hover:translate-x-1 transition-transform" />
-                  Enviar Mensaje
-                </button>
-              </form>
+              <form className="space-y-4" onSubmit={handleSubmit}>
+      <div>
+        <label htmlFor="name" className="block text-sm font-medium text-slate-600 dark:text-slate-400 mb-1">Nombre</label>
+        <input 
+          type="text" 
+          id="name" 
+          required
+          value={formData.name}
+          onChange={handleChange}
+          className="w-full bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-700 rounded-lg px-4 py-2 text-slate-900 dark:text-white focus:outline-none focus:border-cyan-500 transition-colors"
+          placeholder="Tu nombre"
+        />
+      </div>
+      <div>
+        <label htmlFor="email" className="block text-sm font-medium text-slate-600 dark:text-slate-400 mb-1">Email</label>
+        <input 
+          type="email" 
+          id="email" 
+          required
+          value={formData.email}
+          onChange={handleChange}
+          className="w-full bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-700 rounded-lg px-4 py-2 text-slate-900 dark:text-white focus:outline-none focus:border-cyan-500 transition-colors"
+          placeholder="tu@email.com"
+        />
+      </div>
+      <div>
+        <label htmlFor="message" className="block text-sm font-medium text-slate-600 dark:text-slate-400 mb-1">Mensaje</label>
+        <textarea 
+          id="message" 
+          rows="4" 
+          required
+          value={formData.message}
+          onChange={handleChange}
+          className="w-full bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-700 rounded-lg px-4 py-2 text-slate-900 dark:text-white focus:outline-none focus:border-cyan-500 transition-colors resize-none"
+          placeholder="Cuéntame sobre tu proyecto..."
+        ></textarea>
+      </div>
+      <button type="submit" className="w-full bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold py-3 rounded-lg hover:shadow-lg hover:shadow-cyan-500/25 transition-all flex items-center justify-center gap-2 group">
+        <Send size={18} className="group-hover:translate-x-1 transition-transform" />
+        Enviar a WhatsApp
+      </button>
+    </form>
             </div>
           </div>
         </div>
