@@ -1666,12 +1666,9 @@ protocolos de adjudicación para la adquisición de vehículos, garantizando la 
                   procesamiento de ventas y generación de informes en tiempo real para mejorar la eficiencia y la toma de decisiones.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">Kotlin</span>
-                  <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">PostgreSQL</span>
-                  <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">SQLite</span>
-                  <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">Java</span>
-                  <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">PHP</span>
-                  <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">Firebase</span>
+                  <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">Visual Basic</span>
+                  <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">MySQL</span>
+                  <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">C#</span>
                 </div>
               </div>
             </div>
@@ -1694,7 +1691,7 @@ protocolos de adjudicación para la adquisición de vehículos, garantizando la 
               <div className="p-6">
                 <div className="flex justify-between items-center mb-4">
                   <h3 className="text-xl font-bold text-slate-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
-                    App de pedidos para sistema OCR
+                    App de pedidos para sistema Adn Pos
                   </h3>
                  <div className="flex space-x-3">
                     <button 
@@ -1707,15 +1704,14 @@ protocolos de adjudicación para la adquisición de vehículos, garantizando la 
                     > <Images size={20} /></button>                  </div>
                 </div>
                 <p className="text-slate-600 dark:text-slate-400 mb-4 text-sm">
-                  Un sistema de intercambio de moneda estilo P2P (peer-to-peer) permite a los usuarios comprar y vender divisas directamente entre ellos, sin necesidad de intermediarios tradicionales como bancos o casas de cambio.
+                  Aplicación móvil complementaria al sistema empresarial ADN Pos, diseñada para facilitar la gestión de pedidos y ventas desde dispositivos móviles,
+                  permitiendo a los usuarios realizar transacciones, consultar inventarios y generar reportes de ventas de manera eficiente y en tiempo real.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">Kotlin</span>
-                  <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">PostgreSQL</span>
-                  <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">SQLite</span>
-                  <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">Java</span>
-                  <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">PHP</span>
-                  <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">Firebase</span>
+                  <span className="text-xs font-medium text-purple-700 dark:text-purple-300 bg-purple-100 dark:bg-purple-900/30 px-2 py-1 rounded">MySQL</span>
+                  <span className="text-xs font-medium text-purple-700 dark:text-purple-300 bg-purple-100 dark:bg-purple-900/30 px-2 py-1 rounded">SQLite</span>
+                  <span className="text-xs font-medium text-purple-700 dark:text-purple-300 bg-purple-100 dark:bg-purple-900/30 px-2 py-1 rounded">PHP</span>
+                  <span className="text-xs font-medium text-purple-700 dark:text-purple-300 bg-purple-100 dark:bg-purple-900/30 px-2 py-1 rounded">Visual Basic</span>
                 </div>
               </div>
             </div>
