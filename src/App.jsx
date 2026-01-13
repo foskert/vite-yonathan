@@ -1030,7 +1030,7 @@ const Portfolio = () => {
       </section>
 
        {/* videos */}
-      <section id="contacto" className="py-20 bg-white dark:bg-slate-900">
+      <section id="contacto" className="py-20 bg-white dark:bg-black/50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-slate-50 dark:bg-slate-800/50 rounded-2xl p-8 md:p-12 border border-slate-200 dark:border-slate-700 shadow-2xl">
             <div className="text-center mb-10">
@@ -1577,15 +1577,15 @@ protocolos de adjudicación para la adquisición de vehículos, garantizando la 
                     > <Images size={20} /></button>                  </div>
                 </div>
                 <p className="text-slate-600 dark:text-slate-400 mb-4 text-sm">
-                  Un sistema de intercambio de moneda estilo P2P (peer-to-peer) permite a los usuarios comprar y vender divisas directamente entre ellos, sin necesidad de intermediarios tradicionales como bancos o casas de cambio.
-                </p>
+ Plataforma tecnológica para la intermediación de activos líquidos y conversión de divisas. El sistema opera mediante un motor de emparejamiento (matching engine) que conecta ofertas y demandas de cambio en tiempo real, aplicando 
+                    tipos de cambio dinámicos basados en feeds de datos de mercados internacionales y asegurando la integridad de la transacción mediante cuentas de custodia segregadas
+                                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <span className="text-xs font-medium text-purple-700 dark:text-purple-300 bg-purple-100 dark:bg-purple-900/30 px-2 py-1 rounded">Kotlin</span>
-                  <span className="text-xs font-medium text-purple-700 dark:text-purple-300 bg-purple-100 dark:bg-purple-900/30 px-2 py-1 rounded">PostgreSQL</span>
-                  <span className="text-xs font-medium text-purple-700 dark:text-purple-300 bg-purple-100 dark:bg-purple-900/30 px-2 py-1 rounded">SQLite</span>
-                  <span className="text-xs font-medium text-purple-700 dark:text-purple-300 bg-purple-100 dark:bg-purple-900/30 px-2 py-1 rounded">Java</span>
+                  <span className="text-xs font-medium text-purple-700 dark:text-purple-300 bg-purple-100 dark:bg-purple-900/30 px-2 py-1 rounded">Vue js</span>
+                  <span className="text-xs font-medium text-purple-700 dark:text-purple-300 bg-purple-100 dark:bg-purple-900/30 px-2 py-1 rounded">Laravel</span>
+                  <span className="text-xs font-medium text-purple-700 dark:text-purple-300 bg-purple-100 dark:bg-purple-900/30 px-2 py-1 rounded">MariaDB</span>
                   <span className="text-xs font-medium text-purple-700 dark:text-purple-300 bg-purple-100 dark:bg-purple-900/30 px-2 py-1 rounded">PHP</span>
-                  <span className="text-xs font-medium text-purple-700 dark:text-purple-300 bg-purple-100 dark:bg-purple-900/30 px-2 py-1 rounded">Firebase</span>
+                  <span className="text-xs font-medium text-purple-700 dark:text-purple-300 bg-purple-100 dark:bg-purple-900/30 px-2 py-1 rounded">jira</span>
                 </div>
               </div>
             </div>
@@ -1615,8 +1615,9 @@ protocolos de adjudicación para la adquisición de vehículos, garantizando la 
                   </div>
                   </div>
                 <p className="text-slate-600 dark:text-slate-400 mb-4 text-sm">
-                  Un sistema de intercambio de moneda estilo P2P (peer-to-peer) permite a los usuarios comprar y vender divisas directamente entre ellos, sin necesidad de intermediarios tradicionales como bancos o casas de cambio.
-                </p>
+ Plataforma tecnológica para la intermediación de activos líquidos y conversión de divisas. El sistema opera mediante un motor de emparejamiento (matching engine) que conecta ofertas y demandas de cambio en tiempo real, aplicando 
+                    tipos de cambio dinámicos basados en feeds de datos de mercados internacionales y asegurando la integridad de la transacción mediante cuentas de custodia segregadas
+                                 </p>
                 <div className="flex flex-wrap gap-2">
                   <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">Kotlin</span>
                   <span className="text-xs font-medium text-cyan-700 dark:text-cyan-300 bg-cyan-100 dark:bg-cyan-900/30 px-2 py-1 rounded">PostgreSQL</span>
@@ -1646,7 +1647,7 @@ protocolos de adjudicación para la adquisición de vehículos, garantizando la 
               <div className="p-6">
                 <div className="flex justify-between items-center mb-4">
                   <h3 className="text-xl font-bold text-slate-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
-                    Sistema OCR para escritorio
+                    Sistema empresarial para escritorio
                   </h3>
                  <div className="flex space-x-3">
                     <button 
@@ -1818,7 +1819,7 @@ protocolos de adjudicación para la adquisición de vehículos, garantizando la 
       <footer className="bg-slate-100 dark:bg-slate-950 py-8 border-t border-slate-200 dark:border-slate-800">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <p className="text-slate-500">
-            © {new Date().getFullYear()} DevYonathan. Construido con React & Tailwind CSS.
+            © {new Date().getFullYear()} DevYonathan. 
           </p>
         </div>
       </footer>
