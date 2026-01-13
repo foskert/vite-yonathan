@@ -1587,7 +1587,7 @@ Plataforma de intermediación digital diseñada para conectar la demanda de movi
               <div className="p-6">
                 <div className="flex justify-between items-center mb-4">
                   <h3 className="text-xl font-bold text-slate-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
-                   Sistema 
+                   Fintech ExexCar sistema de ahorro planificado para compra de vehículos.
                   </h3>
                   <div className="flex space-x-3">
                     <button 
@@ -1600,8 +1600,9 @@ Plataforma de intermediación digital diseñada para conectar la demanda de movi
                     > <Images size={20} /></button>                  </div>
                 </div>
                 <p className="text-slate-600 dark:text-slate-400 mb-4 text-sm">
-                  Un sistema de intercambio de moneda estilo P2P (peer-to-peer) permite a los usuarios comprar y vender divisas directamente entre ellos, sin necesidad de intermediarios tradicionales como bancos o casas de cambio.
-                </p>
+Plataforma tecnológica financiera (Fintech) diseñada para la gestión de fondos de ahorro programado con fin específico. El sistema permite la 
+estructuración de planes de aportaciones periódicas, vinculando el capital acumulado con 
+protocolos de adjudicación para la adquisición de vehículos, garantizando la trazabilidad y la integridad de los fondos mediante un ecosistema digital                </p>
                 <div className="flex flex-wrap gap-2">
                   <span className="text-xs font-medium text-blue-700 dark:text-blue-300 bg-blue-100 dark:bg-blue-900/30 px-2 py-1 rounded">Kotlin</span>
                   <span className="text-xs font-medium text-blue-700 dark:text-blue-300 bg-blue-100 dark:bg-blue-900/30 px-2 py-1 rounded">PostgreSQL</span>
