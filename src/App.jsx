@@ -144,7 +144,7 @@ import appadnImagen1 from './assets/image/proyect/appadn/1.png';
 import appadnImagen2 from './assets/image/proyect/appadn/2.png';
 
 import ewexImagen from './assets/image/proyect/wewex.jpeg';
-import cvPdf from './assets/image/Yonathan_Rivas_J_18991815_CV.pdf';
+import cvPdf from './assets/image/Yonathan_Rivas_Jimenez_18991815_CV.pdf';
 
 
 const getInitialTheme = () => {
@@ -1799,9 +1799,7 @@ protocolos de adjudicación para la adquisición de vehículos, garantizando la 
                     <a href="https://www.linkedin.com/in/yonathan-rivas-jim%C3%A9nez-504b4ab8/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-lg bg-slate-200 dark:bg-slate-700 hover:bg-blue-500 hover:text-white flex items-center justify-center transition-all duration-300 text-slate-600 dark:text-slate-300">
                       <Linkedin size={20} />
                     </a>
-                    <a href="mailto:dev.yonathan@gmail.com" className="w-10 h-10 rounded-lg bg-slate-200 dark:bg-slate-700 hover:bg-pink-500 hover:text-white flex items-center justify-center transition-all duration-300 text-slate-600 dark:text-slate-300">
-                      <Globe size={20} />
-                    </a>
+                    
                   </div>
                 </div>
               </div>
