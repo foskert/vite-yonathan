@@ -463,9 +463,13 @@ const [formData, setFormData] = useState({
               <XCircle size={32} />
             </button>
             <div className="w-full aspect-video">
-              <video src={videoSrc} controls autoPlay className="w-full h-full">
-                Tu navegador no soporta el elemento de video.
-              </video>
+              <iframe 
+                src={videoSrc.replace('/view?usp=drive_link', '/preview')} 
+                className="w-full h-full border-none"
+                allow="autoplay; fullscreen"
+                allowFullScreen
+              ></iframe>
+             
             </div>
           </div>
         </div>
