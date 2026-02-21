@@ -57,7 +57,8 @@ import plz23Image from './assets/image/certificados/plz23.jpg';
 import plz24Image from './assets/image/certificados/plz24.jpg';
 import plz25Image from './assets/image/certificados/plz25.jpg';
 import plz26Image from './assets/image/certificados/plz26.jpg';
-
+import plz28Image from './assets/image/certificados/lnk28.jpg';
+import udemy01Image from './assets/image/certificados/udemy01.png';
 
 import bukeImage from './assets/image/proyect/buke.png';
 import rubickImage from './assets/image/proyect/rubick.png';
@@ -323,7 +324,9 @@ const Portfolio = () => {
     { img: plz24Image, title: 'Curso Profesional de Git y GitHub', url: 'https://platzi.com/p/foskert/curso/1557-course/diploma/detalle/', date: 'Agosto 2023', platform: 'Platzi' },
     { img: plz25Image, title: 'Curso de Programación Básica', url: 'https://platzi.com/p/foskert/curso/3208-course/diploma/detalle/', date: 'Agosto 2023', platform: 'Platzi' },
     { img: plz26Image, title: 'Curso Básico de PHP: Instalación, Fundamentos y Operadores', url: 'https://platzi.com/p/foskert/curso/2646-course/diploma/detalle/', date: 'Agosto 2023', platform: 'Platzi' },
-    { img: plz26Image, title: 'Acreditación como defensor estudiantil por la igual y equiparación de oportunidades a personas con discapacidad', url: null, date: 'Junio 2013', platform: 'MPPEU', type: 'Certificado' },
+   // { img: plz26Image, title: 'Acreditación como defensor estudiantil por la igual y equiparación de oportunidades a personas con discapacidad', url: null, date: 'Junio 2013', platform: 'MPPEU', type: 'Certificado' },
+    { img: plz28Image, title: 'LinkedIn para networking', url: 'https://www.linkedin.com/learning/certificates/f8ee364fa1dd20ca21a91dd83687c2ce145bee35580c61d4f4ef02a2661cdee6?trk=share_certificate', date: 'Enero 2026', platform: 'linkedin' },
+    { img: udemy01Image, title: 'Certificado de Udemy :Android Jetpack Compose definitivo desde cero', url: 'https://www.udemy.com/certificate/UC-cdb40d53-7024-43c2-bb97-d7128bdfdb75/', date: 'Enero 2026', platform: 'Udemy' },
   ];
 
 
